@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #e6dcdb;
+}
+header{
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+header img{
+    height: 80px;
+    width: auto
+}
+
