@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block title %} Registration {% endblock %}
+
+{% block content %}
+<div class = "login">
+    <div class = "registration">
+        <h4>Регистрация</h4>
+        <form name = 'registration' action = '/registration' method = 'POST'>
+            <p><input class = 'input' type="text" name="name" placeholder = 'Имя' minlength = "2" maxlength = "20"></p>
+            <p><input class = 'input' type="text" name="lastname" placeholder = 'Фамилия' minlength = "2" maxlength = "20" ></p>
+            <p><input class = 'input' type="email" name="email" placeholder = 'Email'></p>
+            <p><input class = 'input' type="password" name="password" placeholder = 'Password' minlength = "12"></p>
+            <p><input type = 'submit' class = "input" value = 'Зарегистрироваться'></p>
+        </form>
+        <p><a class = 'link' href="/login">Войти</a>
+        <a class = 'link' href="/changePassword">Забыли пароль</a></p>
+    </div>
+</div>
+{% endblock %}

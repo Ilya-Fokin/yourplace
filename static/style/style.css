@@ -17,3 +17,84 @@ header img{
     width: auto
 }
 
+ .authorization,
+.registration {
+    border-radius: 2ex;
+    background: #e6dcdb;
+    display: inline-block;
+    width: 50ex;
+    height: 50ex;
+    margin: 5ex;
+    padding: 4ex;
+    box-shadow: 0 4ex 8ex rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    text-align: center;
+}
+
+.login{
+    height: 80ex;
+    position: relative;
+}
+
+.authorization,
+.registration {
+    font-size: 2.5ex;
+    width: 40ex;
+    height: 40ex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.authorization .link,
+.registration .link{
+    color: #000;
+}
+
+.authorization:hover,
+.registration:hover {
+    color: #e6dcdb;
+    background-color: #10495c;
+}
+.authorization:hover .link,
+.registration:hover .link{
+    color:  #e6dcdb;
+}
+.authorization:hover .link:hover,
+.registration:hover .link:hover{
+    color: #10495c;
+    background-color: #e6dcdb;
+    border-radius: 1ex;
+}
+
+.registration {
+    height: 50ex;
+}
+.input {
+    border-radius: 2ex;
+    padding: 1ex;
+    font-weight: bold;
+}
+
+.input:hover {
+    border-radius: 2ex;
+    border-color: #e6dcdb;
+}
+.link:hover {
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #10495c;
+    color: #e6dcdb;
+    margin-left: 2ex;
+    padding: 1ex;
+    white-space: nowrap;
+}
+
+.link {
+    font-weight: bold;
+    text-decoration: none;
+    color: #10495c;
+    background-color: #e6dcdb;
+    border-radius: 1ex;
+    padding: 1ex;
+    white-space: nowrap;
+} 

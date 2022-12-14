@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %} Login {% endblock %}
+{% block content %}
+<div class = "login">
+    <div class = "authorization">
+        <h4>Авторизация</h4>
+        <form name = 'login' action = '' method = 'POST'>
+            <p><input class = 'input' type="email" name="email" placeholder = 'Email'></p>
+            <p><input class = 'input' type="password" name="password" placeholder = 'Password'></p>
+           <p> <input type = 'submit' class = "input" value = 'Войти'></p>
+        </form>
+        <p><a class = 'link' href="/registration">Регистрация</a>
+        <a class = 'link' href="/changePassword">Забыли пароль</a></p>
+    </div>
+</div>
+{% endblock %}

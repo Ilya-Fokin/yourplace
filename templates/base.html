@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>YourPlace</title>
+    <link rel="stylesheet" type="text/css" href="../static/style/style.css">
+</head>
+<body>
+    <header>
+        <a href='/'><img src="../static/img/logoza.ru.png"></a>
+        <div class='header'>
+            <nav class='links'>
+                <a class='link' href="/createOrder">Оставить заявку</a>
+                <a class='link' href="/tarif">Тарифный план</a>
+                <a id="button_a" href="/login"><button class="link">Войти</button></a>
+            </nav>
+        </div>
+    </header>
+    {% block content %}
+    {% endblock %}
+</body>
+</html>

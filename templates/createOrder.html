@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %} YourPlace {% endblock %}
+
+{% block content %}
+
+<div class = "inputs">
+    <form name = 'createOrder' action = '/createOrder' method = 'POST'>
+        <p><input class = 'input' type="number" name="post" placeholder = 'Количество страниц' minlength = "1" maxlength = "3000" required></p>
+        <p><input class = 'input' type="number" name="post" placeholder = 'Тираж' minlength = "2" maxlength = "3000" required></p>
+        <p><input class = 'input' type="text" name="post" placeholder = 'Название' minlength = "2" maxlength = "3000" required></p>
+        <p><input class = 'input' type="textarea" name="post" placeholder = 'Текст' minlength = "2" maxlength = "3000" required></p>
+
+        <p><input type = 'submit' class = "input" value = 'Рассчитать '></p>
+    </form>
+    
+</div>
+{% endblock %}
